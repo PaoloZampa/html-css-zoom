@@ -1,5 +1,45 @@
+/* #region common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* #endregion common */
+
+/* #region utilities */
+
+.container{
+    width: 90%;
+    max-width: 1152px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+/* #endregion utilities */
+
+/* #region header */
+
+.hd-buttons{
+    padding: 0.2rem 0.4rem;
+    margin: 0.3rem;
+    background-color: grey;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+}
+
+.actions{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/* #endregion header */
